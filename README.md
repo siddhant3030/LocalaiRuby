@@ -42,7 +42,7 @@ Strongly typed: Each level of a GraphQL query corresponds to a particular type, 
 
 Protocol, not storage: Each GraphQL field on the server is backed by any arbitrary function. While we were building GraphQL to support News Feed, we already had a sophisticated feed ranking and storage model, along with existing databases and business logic. GraphQL had to leverage all this existing work to be useful, and so does not dictate or provide any backing storage. Instead, GraphQL takes advantage of your existing code.
 
-Introspective: A GraphQL server can be queried for the types it supports. This creates a powerful platform for tools and client software to build atop this information like code generation in statically typed languages, our application framework, Relay, or IDEs like GraphiQL (pictured below). GraphiQL helps developers learn and explore an API quickly without grepping the codebase or wrangling with cURL.
+Introspective: A GraphQL server can be queried for the types it supports. This creates a powerful platform for tools and client software to build atop this information like code generation in statically typed languages, our application framework, Relay, or IDEs like GraphiQL. GraphiQL helps developers learn and explore an API quickly without grepping the codebase or wrangling with cURL.
 
 
 
